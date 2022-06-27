@@ -1,0 +1,27 @@
+p {
+    color: yellow;
+}
+#id1 {font-size: 25px; color: aqua;}
+li {color: blueviolet;}
+.p1 {color: blue;}
+ul+p {color: red;}
+
+.schedule-body>tr:hover {
+    background-color: tomato;
+    color: white;
+}
+
+/* Оформление таблицы */
+.schedule {
+    border-collapse: collapse;
+}
+
+.schedule th,
+.schedule td {
+    padding: 8px;
+    border: 1px solid #212121;
+}
+
+body {
+    font-family: sans-serif;
+}
