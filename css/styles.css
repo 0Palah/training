@@ -27,4 +27,20 @@ pre {
     color: #2a2a2a;
     font-size: 16px;
 }
+.post {
+    letter-spacing: normal;
+}
+.post-title {
+    text-align: center;
+    letter-spacing: 10px;
+}
 
+.align-right {
+    text-align: right;
+}
+
+.align-justify {
+    text-align: justify;
+    text-indent: 25px;
+    letter-spacing: inherit;
+}
