@@ -1,46 +1,51 @@
+
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    line-height: 1.5;
+    background-color: #f9f9fd;
+}
+
+h1,
+h2,
 p {
-    color: #000;
-}
-#id1 {font-size: 25px; color: aqua;}
-li {color: blueviolet;}
-.p1 {color: blue;}
-ul+p {color: red;}
-
-.schedule-body>tr:hover {
-    background-color: tomato;
-    color: white;
+    margin: 0;
 }
 
-/* Оформление таблицы */
-.schedule {
-    border-collapse: collapse;
+.container {
+    max-width: 480px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+    outline: 2px dashed #f44336;
 }
 
-.schedule th,
-.schedule td {
-    padding: 8px;
-    border: 1px solid #212121;
+.page-header,
+.page-footer,
+.hero,
+.about,
+.features {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-pre {
-    font-family: 'Tangerine', cursive;
-    color: #2a2a2a;
-    font-size: 16px;
-}
-.post {
-    letter-spacing: normal;
-}
-.post-title {
-    text-align: center;
-    letter-spacing: 10px;
+.page-header {
+    background-color: #e0e0e0;
 }
 
-.align-right {
-    text-align: right;
+.hero {
+    background-color: #4caf50;
 }
 
-.align-justify {
-    text-align: justify;
-    text-indent: 25px;
-    letter-spacing: inherit;
+.about {
+    background-color: #ffc107;
+}
+
+.features {
+    background-color: #2196f3;
+}
+
+.page-footer {
+    background-color: #90a4ae;
 }
