@@ -3,128 +3,41 @@
 }
 
 body {
-    margin: 0;
-    font-family: sans-serif;
-    line-height: 1.5;
-    background-color: #edf2f7;
+    background-color: #f9f9fd;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 .container {
-    max-width: 1200px;
-    padding: 0;
-    margin-left: auto;
-    margin-right: auto;
-    outline: 2px solid red;
-}
-
-.card-set {
     display: flex;
-    /* Make a flex container multiline */
-    flex-wrap: wrap;
-    /* Set gap between rows and columns */
-    gap: 10px;
-    padding: 0;
-    list-style: none;
+    justify-content: center;
+    margin: 0 auto;
 }
 
-.item {
-    /*  Set the width of the elements  */
-    flex-basis: calc((100% - 20px) / 3);
-
-    padding: 10px;
-    background-color: #fff;
+.thumb {
+    position: relative;
+    margin: 10px;
     border-radius: 4px;
+    overflow: hidden;
+    background-color: #fff;
     box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
         0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 
-.item h2, .card-item h2 {
+.thumb>.label {
+    position: absolute;
+    top: 0;
+    right: 0;
     margin: 0;
-    font-size: 20px;
-}
+    padding: 8px 16px;
+    border-bottom-left-radius: 4px;
 
-.item h2, .card-item p {
-    margin: 0;
-}
-ul, li {
-    margin: 0;
-    padding: 0;
-}
-
-.test-con {
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: yellow;
-    padding-left: 15px;
-    margin-bottom: 100px;
-    
-}
-
-
-.cards {
-    width: 1200px;
-    display: flex;
-     /* Make a flex container multiline */
-    flex-wrap: wrap;
-     /* Set gap between rows and columns */
-    margin: -15px;
-    list-style: none;
-    outline: 2px solid rgb(0, 255, 221);
-    background-color: rgb(208, 255, 0);
-}
-
-.card-item {
-    /*  Set the width of the elements  */
-    width: 370px;
-
-    margin: 15px;
-    padding: 10px;
-    background-color: #fff;
-
-}
-
-
-* {
-    box-sizing: border-box;
-}
-
-body {
     font-family: sans-serif;
-    line-height: 1.5;
-    color: #212121;
-}
-
-.tile-set {
-    display: flex;
-    justify-content: center;
-}
-
-.tile {
-    padding: 10px;
-    text-align: center;
-    border: 2px dashed #2a2a2a;
-    border-radius: 4px;
-}
-
-.tile:not(:last-child) {
-    margin-right: 10px;
-}
-
-.icon {
-    display: inline-flex;
-    height: 64px;
-    width: 64px;
-    border-radius: 50%;
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.icon.with-bg {
-    background-color: #ff9800;
-}
-
-.icon.with-icon {
-    background-image: url("https://cdn2.iconfinder.com/data/icons/avatars-60/5985/34-Father-512.png");
+    font-size: 24px;
+    background-color: #2196f3;
+    color: #fff;
 }
