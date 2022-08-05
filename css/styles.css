@@ -1,23 +1,15 @@
-* {
-    box-sizing: border-box;
-}
-
 body {
-    background-color: #f9f9fd;
+    background-color: #fff;
 }
 
-img {
-    display: block;
-    max-width: 100%;
-    height: auto;
+@media screen and (min-width: 500px) {
+    body {
+        background-color: #ffc107;
+    }
 }
 
-.container {
-    display: flex;
-    align-items: baseline;
+@media screen and (min-width: 768px) {
+    body {
+        background-color: #388e3c;
+    }
 }
-
-.label {
-    resize: vertical;
-}
-
