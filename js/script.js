@@ -1,10 +1,9 @@
-function checkForSpam(message) {
-  let result;
-  // Change code below this line
-  const normalizedMessage = message.toLowerCase();
-  if (normalizedMessage.includes('spam')) { result = 'true';}
-  else if (normalizedMessage.includes('sale')) {result = 'true';}
-  else {result = 'false';}
-  // Change code above this line
-  return result;
-}
+//      Дано довільне ціле число n. Написати програму, яка розбиває число n на цифри та виводить їх на екран;
+//      підраховує скільки цифр у числі n;
+//      знаходить суму цифр числа n;
+//      змінює порядок цифр числа n зворотний.
+//      Приклад: задаю число 123
+//      цифр у числі = 3
+//      сума = 6(це значення набули наступним чином 1+2+3)
+//      зворотний порядок = 321
+
